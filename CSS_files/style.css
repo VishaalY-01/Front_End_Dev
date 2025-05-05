@@ -71,7 +71,6 @@ section {
   margin-right: 50%;
 }
 .card {
-  width: vw;
   border: 0.2vw solid #f3d1bf;
   padding: 2vw;
   width: 25vw;
@@ -86,7 +85,7 @@ section {
   background-color: white;
   transition:ease-in-out;
 }
-.card h1 {
+.card h3 {
   font-size: 2.5vw;
   margin: 1vw 0;
 }
@@ -284,14 +283,14 @@ footer {
   line-height: 1.5vw;
   color: #391400;
 }
-.footer-social li {
+.footer-social ul li {
   margin-left: 1vw;
   list-style: none;
 }
-.footer-social li img{
+.footer-social ul li img{
   height: 3vw;
 }
-.footer-social {
+.footer-social ul {
   display: flex;
   flex-direction: row;
 }

@@ -1,7 +1,7 @@
 #Services{
     background-color: #28293e;
 }
-.works{
+.works ul{
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -56,8 +56,6 @@
 }
 .pimages img{
     height: 25vw;
-    /* display: block; */
-    padding: auto;
 }
 .overlay {
     position: relative;
