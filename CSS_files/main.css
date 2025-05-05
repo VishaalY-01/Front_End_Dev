@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 3.3vw;
+}
+.main-R img{
+    width: 35vw;
+}
+#star{
+    position: relative;
+    top: 0%;
+    left: 54.5%;
+    width: 25%;
+    z-index: 1;
+    
+}
+.main-Lhead h1{
+    font-weight: 400;
+    color: #c35d52;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    padding-bottom: 1vw;
+}
+.main-Lcont{
+    width: 32vw;
+    padding-bottom: 1vw;
+    position: relative;
+    bottom: 17%;
+}
+.main-Lcont h1{
+    font-weight: 800;
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+}
+.main-Lcont p{
+    font-weight: 400;
+    color: #8f909a;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 1vw;
+    
+}
+.main-Lbut{
+    position: relative;
+    bottom: 17%;
+}
+.btn1{
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #ef6d58;
+    padding: 0.7vw 1.5vw;
+    border: none;
+    border-radius: 0.25vw;
+    cursor: pointer;
+}
+.btn1:hover{
+    font-size: 1.1vw;
+}

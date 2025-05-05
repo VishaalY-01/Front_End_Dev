@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        padding: 2vw 4vw;
+    }
+
+    .logo img {
+        width: 30vw;
+        padding-top: 1vw;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #28293e;
+        position: absolute;
+        top: 12vw;
+        right: 0;
+        width: 100%;
+        gap: 5vw;
+        padding: 5vw 0;
+        z-index: 99;
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+
+    .nav-menu li a {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 3.5vw;
+        padding: 2vw 4vw;
+        border: 0.4vw solid white;
+        border-radius: 2vw;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        border-radius: 3.5vw;
+        border: 0.07vw solid white;
+        justify-content: center;
+        width: 13vw;
+        position: relative;
+        left: 20vw;
+        top: 1vw;
+        height: 10vw;
+    }
+
+    .hamburger div {
+        width: 6vw;
+        height: 0.5vw;
+        background-color: white;
+        margin: 1vw 0;
+        transition: 0.4s;
+        margin-left: 3vw;
+    }
+}

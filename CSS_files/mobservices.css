@@ -1,0 +1,134 @@
+@media (max-width: 768px) {
+    #Services {
+        padding: 4vw 2vw;
+    }
+
+    .works {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+        font-size: 4vw;
+    }
+
+    #PORTFOLIO {
+        font-size: 4vw;
+        padding-top: 8vw;
+    }
+
+    #Latest {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .pimages {
+        grid-template-columns: 1fr;
+        padding-left: 0;
+        justify-items: center;
+        gap: 5vw;
+        height: auto;
+    }
+
+    .pimages img {
+        height: 45vw;
+    }
+
+    .img2,
+    .img3,
+    .img4 {
+        position: static;
+    }
+
+    .overlay {
+        position: static;
+        text-align: center;
+        padding-top: 2vw;
+    }
+
+    .tag {
+        font-size: 3vw;
+        padding: 1vw 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .overlay h2 {
+        font-size: 4vw;
+    }
+
+    .btn4,
+    .btn5 {
+        font-size: 3vw;
+        padding: 2vw 4vw;
+        left: 0;
+        bottom: 0;
+        display: block;
+        margin: 4vw auto;
+    }
+
+    .btn4:hover,
+    .btn5:hover {
+        font-size: 3.5vw;
+    }
+
+    .adCont {
+        flex-direction: column;
+        height: auto;
+        width: 90vw;
+        padding: 4vw;
+    }
+
+    .adCont-L {
+        bottom: 0;
+        padding: 4vw 0;
+        text-align: center;
+    }
+
+    .adCont-L img {
+        width: 20vw;
+    }
+
+    .adCont-L h2 {
+        font-size: 3.5vw;
+    }
+
+    .adCont-L h1 {
+        font-size: 5vw;
+    }
+
+    .adCont-M img,
+    .adCont-R img {
+        height: 35vw;
+    }
+
+    .topp,
+    .imges {
+        flex-direction: column;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .topl h2 {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .topl h1 {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .imges img {
+        height: 40vw;
+    }
+
+    .topr img {
+        position: static;
+        height: 8vw;
+        margin: 4vw auto;
+    }
+
+    #navsli {
+        left: 40%;
+        top: 2vw;
+        margin-bottom: 10vw;
+    }
+}

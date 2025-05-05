@@ -1,0 +1,245 @@
+.div2{
+    background-color: #fdf0e9;
+}
+.div2 img{
+    display: flex;
+    padding: 4vw 0 4vw 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div2 hr{
+    background-color: #f3d1bf;
+    display: flex;
+    height: 0.1vw;
+    width: 85%;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+#About{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3vw;
+}
+.About-L img{
+    height: 35vw;
+    width: 28vw;
+}
+.About-R {
+    
+    width: 30vw;
+    padding-top: 3vw;
+}
+.About-R h3{
+    font-weight: 400;
+    color: #ef6d58;
+    font-size: 1vw;
+    letter-spacing: 0.3vw;
+}
+.About-R h2{
+    font-weight: 400;
+    color: #391400;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+}
+.About-R h1{
+    font-weight: 800;
+    color: #391400;
+    font-size: 4vw;
+    letter-spacing: -0.2vw;
+}
+.About-R p{
+    font-weight: 400;
+    color: #7f6454;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 1vw;
+}
+.btn2{
+    text-decoration: none;
+    
+    font-size: 1vw;
+    font-weight: 900;
+    color: #391400;
+    background-color: white;
+    padding: 0.7vw 1.5vw;
+    border: none;
+    border-radius: 0.25vw;
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.btn2:hover{
+    font-size: 1.2vw;
+}
+.stats{
+    
+    color: #391400;
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 50%;
+}
+.stat1,.stat2,.stat3{
+    border: 0.1vw solid #f3d1bf;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+    padding-right: 12vw;
+    height: 8vw;
+}
+.stat1:hover,.stat2:hover,.stat3:hover{
+    height: 10vw;
+    display: inline;
+    position: relative;
+    bottom: 1vw;
+    background-color: white;
+    transition:ease-in-out;
+}
+.stat1:hover h1,
+.stat2:hover h1,
+.stat3:hover h1 {
+    font-size: 3.5vw;
+    font-weight: 800;
+    cursor: pointer;
+    transition:ease-in-out;
+}
+
+.stat1:hover p,
+.stat2:hover p,
+.stat3:hover p {
+    font-size: 1.5vw;
+    font-weight: 400;
+    width: max-content;
+    cursor: pointer;
+    transition:ease-in-out;
+}
+
+.stat1 h1,.stat2 h1,.stat3 h1{
+    font-size: 3vw;
+    font-weight: 800;
+}
+.stat1 p,.stat2 p,.stat3 p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    width: max-content;
+}
+
+#HowWeWork{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vw;
+}
+.work-L{
+    width: 50%;
+    padding-left: 6vw;
+}
+.work-L h3{
+    font-weight: 400;
+    color: #391400;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    text-decoration: underline;
+}
+.work-L h2{
+    font-weight: 400;
+    color: #ef6d58;
+    font-size: 1.2vw;
+    letter-spacing: 0.3vw;
+}
+.work-L h1{
+    font-weight: 800;
+    color: #391400;
+    font-size: 4vw;
+    letter-spacing: -0.2vw;
+}
+.work-L p{
+    font-weight: 400;
+    color: #7f6454;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 1.2vw;
+}
+.work-R{
+    padding-top: 4vw;
+    position: relative;
+    left: -5%;
+}
+ol {
+    list-style-type: none; /* Remove the default numbers */
+    counter-reset: list-counter; /* Initialize the counter */
+    
+}
+
+ol li {
+    counter-increment: list-counter; /* Increment the counter */
+    position: relative; /* Position relative for the pseudo-element */
+    padding-left: 8vw; /* Add space for the custom marker */
+    margin-bottom: 8vw; /* Add some space between list items */
+    text-align: left;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+ol li::before {
+    content: counter(list-counter);
+    width: 7.5vw; /* Circle diameter */
+    height: 7vw; /* Circle diameter */
+    border-radius: 50%; /* Make it a circle */
+    color: #391400; /* Text color inside the circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 5.5vw;
+    left: 0;
+    top: 25%;
+    transform: translateY(-50%);
+    font-weight: bold; 
+}
+ol li:hover::before {
+    background-color: white;
+    cursor: pointer;
+    padding-top: 1vw;
+    transition:ease-in-out;
+}
+
+ol li:hover{
+    cursor: pointer;
+}
+
+
+.vid{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.vid-L{
+    width: 50%;
+}
+.vid-R{
+    padding-top: 4vw;
+    padding-right: 5.5vw;
+}
+.vid-R h2{
+    font-weight: 400;
+    color: #ef6d58;
+    font-size: 1.2vw;
+    letter-spacing: 0.3vw;
+}
+.vid-R h1{
+    font-weight: 800;
+    color: #391400;
+    font-size: 4vw;
+    letter-spacing: -0.2vw;
+}
+.vid-R p{
+    font-weight: 400;
+    color: #7f6454;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 1.2vw;
+}
