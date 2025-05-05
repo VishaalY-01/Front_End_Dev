@@ -2,31 +2,32 @@
 
 This repository contains my submission for the Web Development Technical Round. The task was to recreate the landing page design provided in the Figma file.
 
+---
 
-📌 Task Overview
-Task: Develop the landing page based on the given Figma design.
+## 📌 Task Overview
 
-Objective: Translate the Figma layout into a fully responsive and functional web page using HTML, CSS, and JavaScript (if needed).
+- **Task**: Develop the landing page based on the given Figma design.  
+- **Objective**: Translate the Figma layout into a fully responsive and functional web page using HTML, CSS, and JavaScript (if needed).
 
+---
 
-✅ Features
-1.Fully responsive layout (desktop, tablet)
+## ✅ Features
 
-2.Pixel-perfect design matching the Figma reference
+1. Fully responsive layout (desktop, tablet)  
+2. Pixel-perfect design matching the Figma reference  
+3. Clean and well-commented code  
+4. Organized folder structure
 
-3.Clean and well-commented code
+---
 
-4.Organized folder structure
+## 🛠️ Tech Stack
 
+- **HTML5**  
+- **CSS3** (with Flexbox/Grid)
 
-🛠️ Tech Stack
-=> HTML5
+---
 
-=> CSS3 (with Flexbox/Grid)
-
-
-
-📂 Folder Structure
+## 📂 Folder Structure
 
 ```
 root/
@@ -44,9 +45,10 @@ root/
 └── README.md
 ```
 
+---
 
-🧾 Notes
+## 🧾 Notes
+
 This project is built specifically for the technical round and follows the design and specifications provided in the Figma file.
 
 Please feel free to review the code and reach out if there are any questions.
-
